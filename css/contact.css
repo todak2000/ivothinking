@@ -4,7 +4,7 @@ body{
 	color: #232323;
 
 }
-html { overflow-y: hidden;
+html { 
 overflow-x: hidden; }
 .head{
 	width: 100%;
@@ -55,102 +55,51 @@ a {
 	padding-left: 10px;
 }
 .foot{
-	height: 10vh;
+	height: auto;
 	background-color: #fff;
+	margin: 0 0% 0 15%;
 }
-.footer-left{
-	height: 10vh;
-	background-image: url(left1.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.footer-left2{
-	height: 10vh;
-	background-image: url(left2.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.footer-left3{
-	height: 10vh;
-	background-image: url(left3.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.footer-left4{
-	height: 10vh;
-	background-image: url(left4.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.footer-left5{
-	height: 10vh;
-	background-image: url(left5.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+
 .mid{
 	height: 80vh;
 	background-color: transparent;
 }
-.mid-left{
 
-	height: 80vh;
-	padding: 10% 5% 5% 18%  ;
+.circle{
+	height: 30px;
+	width: 30px;
+	margin:0 10px 0 10px;
+	border-radius: 50%;
+	/* padding: 10% 0 0 40%; */
+	color: #fff;
 }
-.mid-right{
-
-	height: 80vh;
-	padding: 5% 0 0 0%;
+.face{
+	background-color:#3A559F;
 }
-.mid-righta{
-
-	height: 80vh;
-	padding: 0;
+.twit{
+	background-color: #2AAAE0;
 }
-.footer-right{
-	height: 10vh;
-	background-image: url(right1.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-
+.insta{
+	background-image:  linear-gradient(#F9CB02  0%, #F60204  47.72%, #7B39AE 100%);
 }
-.footer-right2{
-	height: 10vh;
-	background-image: url(right2.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-
+.link{
+	background-color: #007BB5;
 }
-.footer-right3{
-	height: 10vh;
-	background-image: url(right3.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-
+.green{
+	background-color: #1ABC9C;
 }
-.footer-right4{
-	height: 10vh;
-	background-image: url(right4.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-
+.pt10{
+	padding-top: 1%;
+	padding-left: 5%;
 }
-.footer-right5{
-	height: 10vh;
-	background-image: url(right5.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-
+.pt11{
+	padding-top: 5%;
+	padding-left: 10%;
 }
-.write{
-	height: 75vh;
-	background-color: transparent;
+.fa{
+	padding: 25%;
+	padding-left: 30%;
 }
-.pics{
-	/* height: 75vh; */
-	background-color: transparent;
-}
-
 
 .hamburger{
   background:none;
@@ -192,47 +141,7 @@ a {
 .menu a:hover{text-decoration:none; color:#666;}
 
 /* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 8px;
-  width: 8px;
-  margin: 0 2px;
-  background-color: #2323230f;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
 
-.active, .dot:hover {
-  background-color: #717171;
-}
-.h1{
-	font-size: 24px;
-	font-weight: bold;
-	margin-bottom: 30px;
-}
-
-.p{
-	font-size: 18px;
-	line-height: 30px; 
-	
-}
-.slide2{
-	width: 105%;
-	display: block;
-	margin-top: 15%; 
-	margin-right: 20%;
-}
-
-
-.slide4{
-	width: 100%; 
-	height: 100%;
-}
-.slide5{
-	width: 60%; 
-	height: 70%;
-}
 
 @media(min-width: 765px) and (max-width: 1024px) {
 	.others{
