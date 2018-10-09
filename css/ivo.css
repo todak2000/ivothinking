@@ -60,7 +60,31 @@ a {
 }
 .footer-left{
 	height: 10vh;
-	background-image: url(left.svg);
+	background-image: url(left1.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.footer-left2{
+	height: 10vh;
+	background-image: url(left2.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.footer-left3{
+	height: 10vh;
+	background-image: url(left3.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.footer-left4{
+	height: 10vh;
+	background-image: url(left4.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.footer-left5{
+	height: 10vh;
+	background-image: url(left5.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -84,8 +108,36 @@ a {
 	padding: 0;
 }
 .footer-right{
-	height: 15vh;
-	background-image: url(right.svg);
+	height: 10vh;
+	background-image: url(right1.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.footer-right2{
+	height: 10vh;
+	background-image: url(right2.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.footer-right3{
+	height: 10vh;
+	background-image: url(right3.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.footer-right4{
+	height: 10vh;
+	background-image: url(right4.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.footer-right5{
+	height: 10vh;
+	background-image: url(right5.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -165,15 +217,7 @@ a {
 	margin-top: 15%; 
 	margin-right: 20%;
 }
-.slide3{
-	/* height: 100%; 
-	width: 100%; 
-	display: block;
-	object-fit: cover;
-	margin-left: -20%;
-	margin-top: 10%; 
-	margin-right: -20%; */
-}
+
 
 .slide4{
 	width: 100%; 
@@ -184,9 +228,67 @@ a {
 	height: 70%;
 }
 
-@media(max-width: 765px){
+@media(min-width: 765px) and (max-width: 1024px) {
+	.others{
+		padding-top: 10px;
+		padding-left: 10px;
+		list-style: none;
+	}
+
+.mid-left{
+padding: 0% 8% 0 8%;
+}
+.write{
+height: auto;
+background-color: transparent;
+}
+.mid-right{
+
+height: auto;
+padding: 0% 0 15% 0%;
+}
+.mid-rightb{
+
+height: auto;
+padding: 0% 0 0% 10%;
+}
+.mid-righta{
+
+height: auto;
+padding: 0 -10  0% 10%;
+}
+.slide5{
+width: 100%; 
+height: 90%;
+margin-top: 10%; 
+padding-left: 30%;
+}
+.slide3{
+height: 100%; 
+width: 100%; 
+margin-left: 10%;
+}
+.slide4{
+width: 100%; 
+height: 100%;
+padding-left: 10%;
+}
+.slide2{
+/* width: 100%; */
+display: block;
+object-fit: cover;
+}
+.slida{
+	/* width: 100%; */
+	display: block;
+	object-fit: cover;
+	}
+}
+
+
+@media(max-width: 765px) {
 		.p{
-	font-size: 10px; 
+	font-size: 13px; 
 
 	}
 	.h1{
@@ -197,22 +299,22 @@ a {
 	padding: 0% 10% 0 10%;
 	}
 	.write{
-	height: 30vh;
+	height: auto;
 	background-color: transparent;
 	}
 	.mid-right{
 
-	height: 45vh;
+	height: auto;
 	padding: 0% 0 20% 0%;
 	}
 	.mid-rightb{
 
-	height: 45vh;
+	height: auto;
 	padding: 0% 0 0% 10%;
 	}
 	.mid-righta{
 
-	height: 45vh;
+	height: auto;
 	padding: 0 -10  0% 10%;
 	}
 	.slide5{
@@ -232,9 +334,18 @@ a {
 	padding-left: 10%;
 	}
 	.slide2{
-	width: 100%;
+	/* width: 100%; */
+	display: block;
+	object-fit: cover;
+	}
+	.slida{
+		/* width: 100%; */
+		display: block;
+		object-fit: cover;
+		}
 	}
 }
+
 @media(min-width: 766px) and (max-width: 1040px){
 		.p{
 	font-size: 14px; 
