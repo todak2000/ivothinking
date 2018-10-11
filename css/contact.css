@@ -7,7 +7,7 @@ body{
 html { 
 overflow-x: hidden; }
 
-a:hover{
+.a:hover{
 	color: #232323;
 	border: solid 1px #ccc;
 	padding: 5px 10px 5px 10px;
@@ -78,9 +78,9 @@ a:hover{
 }
 .pt20{
 	padding-top: 20px;
-	font-size: 18px;
+	font-size: 1.8rem;
 }
-a {
+.a {
 	color: #232323;
 	list-style: none;
 }
@@ -127,7 +127,23 @@ a {
 	margin: 2% 0% 0 15%;
 	height: 100px;
 }
-
+.mid3{
+	margin-left:2%;
+}
+sup{
+	font-size: 40%;
+	top: -1.5em;
+}
+.lp{
+	font-weight:700 ; 
+	
+	font-family: 'Open Sans', sans-serif; 
+	padding: 4% 0% 0% 20%;
+	/* padding-left: 20%;  */
+	/* padding-bottom: 20px; */
+	font-size: 20px;
+	line-height: 20px;
+}
 .mid{
 	height: 80vh;
 	background-color: transparent;
@@ -136,7 +152,7 @@ a {
 .circle{
 	height: 30px;
 	width: 30px;
-	margin:0 10px 0 10px;
+	margin:0 0px 0 0px;
 	border-radius: 50%;
 	/* padding: 10% 0 0 40%; */
 	color: #fff;
@@ -144,10 +160,16 @@ a {
 .alin{
 	text-align: center;
 }
-.spa{
-	/* border-radius:30%;
-	width: 100px;
-	height: 100px; */
+.sp{
+	font-weight:700 ; 
+	
+	font-family: 'Open Sans', sans-serif; 
+	padding: 4% 5% 0% 0%;
+	/* padding-left: 20%;  */
+	/* padding-bottom: 20px; */
+	font-size: 16px;
+	line-height: 20px;
+
 }
 .mt5{
 	margin-top: 5%;
@@ -211,7 +233,8 @@ a {
   top:0;
   right:0;
   line-height:45px;
-  padding:5px 15px 0px 15px;
+  padding:5px 15px 0px 0px;
+  margin-right: 25px;
   color:#999;
   border:0;
   font-size:1.4em;
@@ -342,6 +365,18 @@ padding-left: 10%;
 	.pt10{
 		padding-top: 10px;
 		padding-left: 0;
+	}
+	.form_row{
+		margin-left:0;
+		margin-right: 0;
+	}
+	.footer-right5{
+		bottom: 0;
+		height: 15vh;
+		background-image: url(right5.svg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	
 	}
 }
 
