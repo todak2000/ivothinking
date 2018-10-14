@@ -383,6 +383,14 @@ body{
     .icon{
         margin-left: 10px; 
     }
+    .glyphicon {
+        color: #AFBBC4;
+        font-size: 16px;
+    }
+    .circle {
+        height: 32px;
+        width: 32px;
+    }
 }
 @media(min-width: 768px) and (max-width: 1024px) {
     .search{
