@@ -2,6 +2,9 @@ body{
 	font-family: 'Open Sans', sans-serif;
 
 }
+html { 
+    overflow-x: hidden; 
+}
 .container-fluid{
     height: 100vh;
     background-color: #F8F8F8;
@@ -345,13 +348,16 @@ padding-left: 8px;
 font-family: 'Roboto', sans-serif;
 }
 @media(max-width: 767px) {
+    html { 
+        overflow-x: hidden; 
+    }
     .main_top{
         width: 100%;
-        margin-left:5px;
+        margin-left:0px;
     }
     .main_bottom{
         width: 100%;
-        margin-left:5px;
+        margin-left:0px;
     }
     .hone {
         margin-left: 10px;

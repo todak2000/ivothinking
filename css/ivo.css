@@ -343,6 +343,11 @@ object-fit: cover;
 	height: auto;
 	padding: 0% 0 0% 10%;
 	}
+	.mid-rightbm{
+
+		height: auto;
+		padding: 0% 0 0% 0%;
+		}
 	.mid-righta{
 
 	height: auto;
