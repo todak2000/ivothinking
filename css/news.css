@@ -339,6 +339,11 @@ body{
     margin-left: 30px;
     margin-top: 40px;  
 }
+.sp{
+    font-size: 20px;
+padding-left: 8px;
+font-family: 'Roboto', sans-serif;
+}
 @media(max-width: 767px) {
     .main_top{
         width: 100%;
@@ -390,6 +395,11 @@ body{
     .circle {
         height: 32px;
         width: 32px;
+    }
+    .sp{
+        font-size: 16px;
+    padding-left: 8px;
+    font-family: 'Roboto', sans-serif;
     }
 }
 @media(min-width: 768px) and (max-width: 1024px) {
