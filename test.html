@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+ 
+    <link rel="stylesheet" type="text/css" href="css/ivo.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
+
+    <title>NewsFeed</title>
+ 
+</head>
+
+<body>
+        <div class="slideshow-container">
+
+                 <!-- IVO SLIDE -->
+                <div class="mySlides fade">
+                        <div class="write col-md-7 col-lg-7 col-sm-12 col-xs-12 mid-left">
+                                <h1 class="h1">Innovative Orchestrations [I:VO]</h1>
+                                <p class="p">IVO is a global digital and software technology innovation Company.<br>
+                                        We focus on designing innovations in digital technology industry, and<br>
+                                        transform emerging ideas into viable products that move the digital<br>
+                                        industry forward.</p>
+                                <p class="p">We range from a group of designers, developers, researchers and<br>
+                                        brand developers with key areas to uncover new ways to help<br>
+                                        companies and individuals do different things and do things<br>
+                                        differently in a simplified way.</p>
+                            </div>
+                            <div class="write col-md-5 col-lg-5 col-sm-12 col-xs-12 mid-right pics">
+                                <img src="img/people.png" alt="Innovative Orchestrations" class="img-responsive slidea">
+                            </div>
+                </div>
+              <!-- WEB APP SLIDE -->
+                <div class="mySlides fade">
+                        <div class="write col-md-8 col-lg-8 col-sm-12 col-xs-12 mid-left">
+                                <h1 class="h1">Web Applications</h1>
+                                <p class="p">The Speed at which the internet of everything is polarizing the<br>
+                                      ecosystem, building products related to the web experience has been<br>
+                                      so demanding and equally relevant.</p>
+                                <p class="p">Using current advanced technologies and protocols that uniquely<br>
+                                  connects across every platform.</p>
+                            </div>
+                            <div class="write col-md-4 col-lg-4 col-sm-12 col-xs-12  mid-rightb pics">
+                                <img src="img/desktop.png" alt="Web Applications" class="slide2 " class="img-responsive slidea" >
+                            </div>
+                </div>
+              <!-- MOBILE APP SLIDE -->
+                <div class="mySlides fade">
+                        <div class="write col-md-8 col-lg-8 col-sm-12 col-xs-12 mid-left">
+                                <h1 class="h1">Mobile Applications</h1>
+                                <p class="p">Our innovative approach of ideas, designs to developement on<br>
+                                  mobile technologyy varies from different fields and industries, Fintech,<br>
+                                  Entertainment, Messaging, Blockchains, Transportation, Lifestyle,<br>
+                                  Health and more.<br>
+                                  We make use of current global technologies to approach challenges<br>
+                                  and executions.</p>
+                              <p class="p">We design and build each product from scratch to finish.</p>
+                        </div>
+                        <div class="write col-md-4 col-lg-4 col-sm-12 col-xs-12  mid-rightbm pics">
+                                <img src="img/MobileDebug.png" alt="Mobile Applications" class="img-responsive slidea">
+                        </div>
+                </div>
+            <!-- DESIGN AND USER EXPERIENCE SLIDE -->
+                <div class="mySlides fade">
+                        <div class="write col-md-8 col-lg-8 col-sm-12 col-xs-12 mid-left">
+                                <h1 class="h1">Designs, User Experience</h1>
+                                <p class="p">Users has always been our center of attraction, they are the driving<br>
+                              force to why we do what we do, it is important to understand each<br>
+                              user challenge, concentration and understanding then build an<br>
+                              experience around it, this become the success factor of the actualized<br>
+                              product.</p>
+                              <p class="p" >We believe users come first before the product.</p>
+                        </div>
+                        <div class="write col-md-4 col-lg-4 col-sm-12 col-xs-12  mid-rightb pics">
+                                <img src="img/user.png" alt="Designs & User experience" class="img-responsive slidea">
+                        </div>
+                </div>
+                <!-- ARTIFICIAL INTELLIGENCE SLIDE -->
+                <div class="mySlides fade">
+                        <div class="write col-md-8 col-lg-8 col-sm-12 col-xs-12 mid-left">
+                                <h1 class="h1">Artificial Intelligence & Machine Learning</h1>
+                                <p class="p">Artificial intelligence (AI) is an area of computer science that<br>
+                              emphasizes the creation of intelligent machines that work and react<br>
+                              like humans. Some of the activities computers with artificial<br>
+                              intelligence are designed for include: Speech recognition, Learning,<br>
+                              Planning, Problem solving, BOTs.</p>
+                              <p class="p">Using algorithms that iteratively learn from data, machine learning<br>
+                              allows computers to learn without being explicitly programmed where<br>
+                              to look. The result? High-value predictions that can guide better<br>
+                              decisions and smart actions in real time without human intervention.</p>
+                        </div>
+                        <div class="write col-md-4 col-lg-4 col-sm-12 col-xs-12  mid-rightb pics">
+                                <img src="img/arti.png" alt="Artificial Intelligence" class="img-responsive hidden-xs hidden-sm" >
+                                <img src="img/arti_resp.png" alt="Artificial intelligence" class="slidea hidden-md hidden-lg" >
+                        </div>
+                </div>
+              
+                
+              </div>
+              <br>
+              
+              <!-- The dots/circles -->
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+                <span class="dot" onclick="currentSlide(5)"></span> 
+              </div>
+           
+    
+    <script>
+            var slideIndex = 1;
+              showSlides(slideIndex);
+
+              // Next/previous controls
+              function plusSlides(n) {
+              showSlides(slideIndex += n);
+              }
+
+              // Thumbnail image controls
+              function currentSlide(n) {
+              showSlides(slideIndex = n);
+              }
+
+              function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1} 
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none"; 
+              }
+              for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block"; 
+              dots[slideIndex-1].className += " active";
+              }
+    </script>
+</body>
+
+</html>
+
+
+
+<!-- Slideshow container -->
+
+
+      
