@@ -499,12 +499,12 @@ img {vertical-align: middle; object-fit: cover;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .9} 
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .9} 
   to {opacity: 1}
 }
 
